@@ -1,5 +1,6 @@
 {
     "name": "epaper-4in2",
+    "version": "0.0.1",
     "description": "",
     "dependencies": {
         "core": "*",
@@ -7,9 +8,11 @@
         "microphone": "*"
     },
     "files": [
-        "main.blocks",
         "main.ts",
-        "README.md"
+        "README.md",
+        "display.cpp",
+        "font.cpp",
+        "shims.d.ts"
     ],
     "testFiles": [
         "test.ts"
